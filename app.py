@@ -1,4 +1,4 @@
-import streamlit as st  # ← streamlit import is fine before set_page_config
+import streamlit as st
 import pickle
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
