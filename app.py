@@ -9,7 +9,7 @@ import pickle
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 
-with open('kmean_model.pkl', 'rb') as f:
+with open('kmeans_model.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
     
 st.title("K-Means Clustering Visualizer by Thanakorn Ritsub")
