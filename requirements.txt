@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 20 16:31:55 2025
+
+@author: pangp
+"""
+
+streamlit
+scikit-learn
+pandas
+numpy
+matplotlib
