@@ -9,12 +9,12 @@ import pickle
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 
-with open('models/kmean_model.pkl', 'rb') as f:
+with open('kmean_model.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
     
 st.title("K-Means Clustering Visualizer by Thanakorn Ritsub")
 
-st.set_page_config(page_title="K-Means Clustering", layout = 'centerd')
+st.set_page_config(page_title="K-Means Clustering", layout='centered')
 
 X, _ = make_blobs(n_samples=300, centers=loaded_model.n_clusters, cluster_std=0.60, random_state=0)
 
